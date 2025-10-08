@@ -1,7 +1,7 @@
 [
   {
-    "image": "app1.png",
-    "title": "SmPlan: Ultimate ToDo & Reminder",
+    "image": "https://play-lh.googleusercontent.com/6yT8JfjY4ESEu69QpxHxjhyVhIoPgpbol1t4hEgfiBcGP0gy35ez0NvxyARrq5VPcGU",
+    "title": "SmPlan: Ultimate ToDo",
     "companyName": "SmartTask Solutions",
     "id": 1,
     "description": "SmPlan is your ultimate productivity companion that helps you organize tasks, set reminders, and track your progress effortlessly. Create daily, weekly, or custom plans with priorities, categories, and deadlines. Receive intelligent notifications to ensure nothing is missed, and visualize your productivity trends with intuitive charts. Perfect for students, professionals, and anyone looking to manage time more effectively and stay on top of their goals.",
@@ -18,8 +18,8 @@
     ]
   },
   {
-    "image": "app2.png",
-    "title": "FitLife: Fitness Tracker & Health Coach",
+    "image": "https://play-lh.googleusercontent.com/idLd_YhoRiKMEa1uqjZGw1HB9NYJ-Ip_7gt98gzv2Mx17-y4cG5vDxoQaJxQEvZ2PRQ",
+    "title": "FitLife: Fitness Tracker ",
     "companyName": "Wellness Labs",
     "id": 2,
     "description": "FitLife helps you track workouts, monitor calories, set fitness goals, and stay motivated with daily challenges. Get personalized health insights, heart rate monitoring, and integration with wearables to optimize your performance and improve well-being.",
@@ -36,8 +36,8 @@
     ]
   },
   {
-    "image": "app3.png",
-    "title": "EduLearn: Interactive Learning Platform",
+    "image": "https://play-lh.googleusercontent.com/Nwep1ueyQ3HXNsyCKiK85CYUDgvMq9Em-40rX8yGZi_74ZRa-w_5lZIKgJgD4F6b7w",
+    "title": "EduLearn: Learning Platform",
     "companyName": "BrightMinds Inc.",
     "id": 3,
     "description": "EduLearn offers thousands of interactive courses, quizzes, and exercises for students of all ages. Track your learning progress, earn badges, and explore AI-driven recommendations to enhance your knowledge and skills in multiple subjects.",
@@ -54,8 +54,8 @@
     ]
   },
   {
-    "image": "app4.png",
-    "title": "MoneyWise: Personal Finance & Budgeting",
+    "image": "https://play-lh.googleusercontent.com/bZ_0tlVCUtYmrloxMyYv9Kfx0HGcNyTiLqcery9dcQDN8cWJE1Jva-LEe2pPn-cT26U",
+    "title": "MoneyWise: Personal Finance",
     "companyName": "FinanceTech Solutions",
     "id": 4,
     "description": "MoneyWise is your personal finance assistant that helps you track expenses, set budgets, monitor savings, and manage investments. Receive smart insights and notifications to improve spending habits and reach financial goals faster.",
@@ -72,8 +72,8 @@
     ]
   },
   {
-    "image": "app5.png",
-    "title": "MindMapX: Brainstorm & Idea Organizer",
+    "image": "https://cdn.nulab.com/learn-wp/app/uploads/2021/06/14211751/bubble-mindmap-template.png",
+    "title": "MindMapX: Idea Organizer",
     "companyName": "IdeaForge Labs",
     "id": 5,
     "description": "MindMapX helps you visualize ideas, brainstorm projects, and create flowcharts with AI-powered suggestions. Capture thoughts quickly and collaborate with team members in real-time for better project planning.",
@@ -90,8 +90,8 @@
     ]
   },
   {
-    "image": "app6.png",
-    "title": "RideMate: Ride Sharing & Navigation",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1Eow-IaJR9h3sS8PzlmT0lbb9TB4Ksqd8LA&s",
+    "title": "RideMate: Ride Sharing ",
     "companyName": "GoTransit",
     "id": 6,
     "description": "RideMate helps you share rides, book cabs, or rent e-bikes with verified drivers. Enjoy real-time GPS tracking, fare estimation, and safety alerts to ensure a convenient and secure travel experience.",
@@ -108,8 +108,8 @@
     ]
   },
   {
-    "image": "app7.png",
-    "title": "CryptoTrack: Real-Time Cryptocurrency Tracker",
+    "image": "https://i.ytimg.com/vi/y_j0nk9nnxA/maxresdefault.jpg",
+    "title": "CryptoTrack: Crypto Tracker",
     "companyName": "BitPulse Ltd.",
     "id": 7,
     "description": "CryptoTrack delivers live crypto prices, news, and portfolio tracking. Analyze trends, receive alerts for price movements, and make informed decisions about your digital assets.",
@@ -126,8 +126,8 @@
     ]
   },
   {
-    "image": "app8.png",
-    "title": "RecipeHub: Cooking Recipes & Meal Planner",
+    "image": "https://kidspot.co.nz/wp-content/uploads/2021/08/dinner_mealplanner.jpeg",
+    "title": "RecipeHub: Meal Planner",
     "companyName": "TastyNest",
     "id": 8,
     "description": "RecipeHub provides thousands of recipes with step-by-step video instructions, meal plans, and smart ingredient substitutions. Organize your kitchen efficiently and explore global cuisines effortlessly.",
@@ -144,8 +144,8 @@
     ]
   },
   {
-    "image": "app9.png",
-    "title": "Newsly: AI-Powered News Feed",
+    "image": "https://www.lifewire.com/thmb/iyw845tNcODWNinkRZTlwfwgy-o=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-157399872-16c9a11f6f7b412ba9596517159f53fd.jpg",
+    "title": "Newly: AI-Powered News Feed",
     "companyName": "MediaNext",
     "id": 9,
     "description": "Newsly curates personalized news feeds from trusted sources. Receive AI-driven summaries, breaking alerts, and categorized content tailored to your interests for an ad-free reading experience.",
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "app10.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQohPNyJZS9UxjNw6xgBZXqxA_YHSZgV4i3FA&s",
     "title": "VisionAI: Photo to Art Converter",
     "companyName": "Lensify Inc.",
     "id": 10,
@@ -180,8 +180,8 @@
     ]
   },
   {
-    "image": "app11.png",
-    "title": "GameForge: Indie Games & Challenges",
+    "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2152810/capsule_616x353.jpg?t=1758269587",
+    "title": "GameForge: Indie Games",
     "companyName": "PlayPeak Studios",
     "id": 11,
     "description": "GameForge lets you discover trending indie games and connect with developers worldwide. Compete in daily leaderboards, earn achievements, and participate in community challenges. Perfect for gamers looking for new experiences, game reviews, and social interaction with fellow players globally.",
@@ -198,8 +198,8 @@
     ]
   },
   {
-    "image": "app12.png",
-    "title": "NoteWise: Smart Notes & Collaboration",
+    "image": "https://play-lh.googleusercontent.com/NxKqwBq8iCpn7WgNmgqm91PYDtaqjCSgJjVZ3wQb9rNvBXuJVC-FTm_AnHDykFDZOc0",
+    "title": "NoteWise: Smart Notes",
     "companyName": "ScribbleSoft",
     "id": 12,
     "description": "NoteWise organizes all your notes, lists, and inspirations in one elegant space. Sync across devices, add images and attachments, and share with your team seamlessly. Advanced search and AI-powered suggestions help you find the right note instantly.",
@@ -216,8 +216,8 @@
     ]
   },
   {
-    "image": "app13.png",
-    "title": "SoundSphere: AI Music Experience",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRQVQpug4kTiVXMAsx0gVoI3I38xaiLdxM2Q&s",
+    "title": "SoundSphere: Music Experience",
     "companyName": "HarmonyX",
     "id": 13,
     "description": "SoundSphere combines AI-powered equalizers and immersive audio effects to deliver a personalized music experience. Create playlists, explore genres, and enjoy dynamic soundscapes tailored to your mood and listening habits.",
@@ -234,8 +234,8 @@
     ]
   },
   {
-    "image": "app14.png",
-    "title": "HealthifyMe: Fitness & Nutrition Tracker",
+    "image": "https://play-lh.googleusercontent.com/NPfbXxAAV3GQ_43zctYR7ZjM5_pz7vpYlG2qhCCA9bFP1MPrHYYACxIEALZdp0koE-k",
+    "title": "HealthifyMe: Nutrition Tracker",
     "companyName": "VitalTrack",
     "id": 14,
     "description": "HealthifyMe keeps you motivated to stay fit through smart meal planning, hydration tracking, workout logs, and personalized health analytics. Connect with nutritionists and trainers, join challenges, and monitor your progress over time.",
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "app15.png",
+    "image": "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/325282792/original/494d72b349c0f726f65d15d0f33f24588d0c1791/transform-your-vision-ai-generated-images-for-stunning-visual-experience.png",
     "title": "VisionAI: Transform Photos to Art",
     "companyName": "Lensify Inc.",
     "id": 15,
@@ -270,8 +270,8 @@
     ]
   },
   {
-    "image": "app16.png",
-    "title": "ShopSmart: Deals & Delivery Tracker",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS79coT1hD6WE1tmzz6v1k_L5M2RL3DHYQr7-0Fbjwj754yRRH2gh9HdBg7MQ66ryBMLeY&usqp=CAU",
+    "title": "ShopSmart:  Delivery Tracker",
     "companyName": "BuyEase Global",
     "id": 16,
     "description": "ShopSmart helps you find discounts, compare prices, and track deliveries from all your favorite stores. Get personalized deals, notifications for price drops, and seamless order management for smart shopping.",
@@ -288,8 +288,8 @@
     ]
   },
   {
-    "image": "app17.png",
-    "title": "StudyHero: Smart Learning & Flashcards",
+    "image": "https://play-lh.googleusercontent.com/v6Jq4p6i3fEdcVCDogAuwGeFE1XhgOaI7DHGubF34sqySrDxT9z9FJVNCj9TsDThFg",
+    "title": "StudyHero: Smart Learning",
     "companyName": "BrainBox Learning",
     "id": 17,
     "description": "StudyHero motivates students through flashcards, leaderboards, and progress tracking. Compete with friends while improving study habits and mastering new subjects efficiently.",
@@ -306,8 +306,8 @@
     ]
   },
   {
-    "image": "app18.png",
-    "title": "TimeTrack: Productivity & Project Timer",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL0hNrUF7GmDYyQ5583yoHZgIKa8h1GErVeg&s",
+    "title": "TimeTrack:  Project Timer",
     "companyName": "ProTask Corp",
     "id": 18,
     "description": "TimeTrack helps professionals measure productivity, manage projects, and generate automatic time reports. Track tasks, set alerts, and gain insights to optimize your work efficiency.",
@@ -324,8 +324,8 @@
     ]
   },
   {
-    "image": "app19.png",
-    "title": "MindMapX: Creative Idea Organizer",
+    "image": "https://res.cloudinary.com/monday-blogs/w_1024,h_768,c_fit/fl_lossy,f_auto,q_auto/wp-blog/2021/03/A-mind-map-with-visuals.png",
+    "title": "MindMapX: Idea Organizer X",
     "companyName": "IdeaForge Labs",
     "id": 19,
     "description": "MindMapX lets you visualize ideas, brainstorm projects, and create flowcharts easily with AI suggestions. Organize thoughts, collaborate with teams, and plan projects efficiently.",
@@ -342,8 +342,8 @@
     ]
   },
   {
-    "image": "app20.png",
-    "title": "CryptoTrack: Real-Time Crypto Portfolio",
+    "image": "https://cdn.prod.website-files.com/614c99cf4f23700c8aa3752a/619d68fca1e98c4961430216_The%205%20Best%20Crypto%20Portfolio%20Trackers%20(1).jpg",
+    "title": "CryptoTrack: Crypto Portfolio",
     "companyName": "BitPulse Ltd.",
     "id": 20,
     "description": "CryptoTrack delivers real-time cryptocurrency market analysis, news, and secure portfolio tracking. Monitor investments, receive alerts, and make informed decisions to optimize your trading strategies.",
@@ -360,8 +360,8 @@
     ]
   },
   {
-    "image": "app21.png",
-    "title": "RecipeHub: Global Recipes & Guides",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMtnuHrlx1URDsYldDDu17-lFmdiRn9R5x3Q&s",
+    "title": "RecipeHub: Global Recipes ",
     "companyName": "TastyNest",
     "id": 21,
     "description": "RecipeHub gives you thousands of delicious recipes, step-by-step guides, and meal planning tools. Save favorites, explore cuisines, and cook smarter with AI-powered ingredient suggestions.",
@@ -378,8 +378,8 @@
     ]
   },
   {
-    "image": "app22.png",
-    "title": "Newsly: AI Personalized News Reader",
+    "image": "https://imgv3.clipfly.ai/clipfly/images/share/featured-image-for-clipfly-ai-news-generator-featuring-an-ai-female-anchor.webp",
+    "title": "Newsly: News Reader",
     "companyName": "MediaNext",
     "id": 22,
     "description": "Newsly curates personalized news feeds using AI. Get breaking news, summaries, and alerts tailored to your interests. Read without ads or clutter and share articles instantly.",
@@ -396,8 +396,8 @@
     ]
   },
   {
-    "image": "app23.png",
-    "title": "DocuScan: OCR & Document Manager",
+    "image": "https://rebootcs.com/assets/front/img/summernote/660a5f891bfaf.png",
+    "title": "DocuScan: OCR ",
     "companyName": "FileFlex Ltd.",
     "id": 23,
     "description": "DocuScan converts paper documents into searchable PDFs with OCR and AI cleanup. Sync to cloud, annotate, and organize all your files efficiently for personal and professional use.",
@@ -414,7 +414,7 @@
     ]
   },
   {
-    "image": "app24.png",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2G3hMV1NwVfhQ6CRy7UQpjUk7amSmKdFKwA&s",
     "title": "HomeSync: Smart Home Controller",
     "companyName": "SmartNest Technologies",
     "id": 24,
@@ -432,8 +432,8 @@
     ]
   },
   {
-    "image": "app25.png",
-    "title": "TravelMate: Trip Planner & Travel Guide",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuM9jwTQTSMgWGI9i6nwvHuIIKw9fpfqT_Tg&s",
+    "title": "TravelMate: Trip Planner",
     "companyName": "ExploreWorld Inc.",
     "id": 25,
     "description": "TravelMate is your complete travel companion. Plan trips, book hotels, discover local attractions, and create personalized itineraries. Access offline maps, travel tips, and share experiences with fellow travelers globally.",
