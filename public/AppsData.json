@@ -1,0 +1,453 @@
+[
+  {
+    "image": "app1.png",
+    "title": "SmPlan: Ultimate ToDo & Reminder",
+    "companyName": "SmartTask Solutions",
+    "id": 1,
+    "description": "SmPlan is your ultimate productivity companion that helps you organize tasks, set reminders, and track your progress effortlessly. Create daily, weekly, or custom plans with priorities, categories, and deadlines. Receive intelligent notifications to ensure nothing is missed, and visualize your productivity trends with intuitive charts. Perfect for students, professionals, and anyone looking to manage time more effectively and stay on top of their goals.",
+    "size": 52,
+    "reviews": 5800,
+    "ratingAvg": 4.7,
+    "downloads": 420000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1800 },
+      { "name": "5 star", "count": 3350 }
+    ]
+  },
+  {
+    "image": "app2.png",
+    "title": "FitLife: Fitness Tracker & Health Coach",
+    "companyName": "Wellness Labs",
+    "id": 2,
+    "description": "FitLife helps you track workouts, monitor calories, set fitness goals, and stay motivated with daily challenges. Get personalized health insights, heart rate monitoring, and integration with wearables to optimize your performance and improve well-being.",
+    "size": 68,
+    "reviews": 10400,
+    "ratingAvg": 4.8,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 6200 }
+    ]
+  },
+  {
+    "image": "app3.png",
+    "title": "EduLearn: Interactive Learning Platform",
+    "companyName": "BrightMinds Inc.",
+    "id": 3,
+    "description": "EduLearn offers thousands of interactive courses, quizzes, and exercises for students of all ages. Track your learning progress, earn badges, and explore AI-driven recommendations to enhance your knowledge and skills in multiple subjects.",
+    "size": 95,
+    "reviews": 7800,
+    "ratingAvg": 4.6,
+    "downloads": 550000,
+    "ratings": [
+      { "name": "1 star", "count": 150 },
+      { "name": "2 star", "count": 200 },
+      { "name": "3 star", "count": 600 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 3150 }
+    ]
+  },
+  {
+    "image": "app4.png",
+    "title": "MoneyWise: Personal Finance & Budgeting",
+    "companyName": "FinanceTech Solutions",
+    "id": 4,
+    "description": "MoneyWise is your personal finance assistant that helps you track expenses, set budgets, monitor savings, and manage investments. Receive smart insights and notifications to improve spending habits and reach financial goals faster.",
+    "size": 72,
+    "reviews": 9200,
+    "ratingAvg": 4.7,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 3850 }
+    ]
+  },
+  {
+    "image": "app5.png",
+    "title": "MindMapX: Brainstorm & Idea Organizer",
+    "companyName": "IdeaForge Labs",
+    "id": 5,
+    "description": "MindMapX helps you visualize ideas, brainstorm projects, and create flowcharts with AI-powered suggestions. Capture thoughts quickly and collaborate with team members in real-time for better project planning.",
+    "size": 66,
+    "reviews": 11400,
+    "ratingAvg": 4.7,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 5700 }
+    ]
+  },
+  {
+    "image": "app6.png",
+    "title": "RideMate: Ride Sharing & Navigation",
+    "companyName": "GoTransit",
+    "id": 6,
+    "description": "RideMate helps you share rides, book cabs, or rent e-bikes with verified drivers. Enjoy real-time GPS tracking, fare estimation, and safety alerts to ensure a convenient and secure travel experience.",
+    "size": 79,
+    "reviews": 13400,
+    "ratingAvg": 4.4,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 4200 },
+      { "name": "5 star", "count": 5600 }
+    ]
+  },
+  {
+    "image": "app7.png",
+    "title": "CryptoTrack: Real-Time Cryptocurrency Tracker",
+    "companyName": "BitPulse Ltd.",
+    "id": 7,
+    "description": "CryptoTrack delivers live crypto prices, news, and portfolio tracking. Analyze trends, receive alerts for price movements, and make informed decisions about your digital assets.",
+    "size": 83,
+    "reviews": 15200,
+    "ratingAvg": 4.6,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 4400 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "app8.png",
+    "title": "RecipeHub: Cooking Recipes & Meal Planner",
+    "companyName": "TastyNest",
+    "id": 8,
+    "description": "RecipeHub provides thousands of recipes with step-by-step video instructions, meal plans, and smart ingredient substitutions. Organize your kitchen efficiently and explore global cuisines effortlessly.",
+    "size": 63,
+    "reviews": 10900,
+    "ratingAvg": 4.7,
+    "downloads": 860000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "app9.png",
+    "title": "Newsly: AI-Powered News Feed",
+    "companyName": "MediaNext",
+    "id": 9,
+    "description": "Newsly curates personalized news feeds from trusted sources. Receive AI-driven summaries, breaking alerts, and categorized content tailored to your interests for an ad-free reading experience.",
+    "size": 44,
+    "reviews": 8700,
+    "ratingAvg": 4.3,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "image": "app10.png",
+    "title": "VisionAI: Photo to Art Converter",
+    "companyName": "Lensify Inc.",
+    "id": 10,
+    "description": "VisionAI transforms photos into digital artwork with AI-powered neural rendering. Apply classic, modern, and fantasy art styles instantly and share with friends or social media.",
+    "size": 110,
+    "reviews": 24500,
+    "ratingAvg": 4.9,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 4900 },
+      { "name": "5 star", "count": 16200 }
+    ]
+  },
+  {
+    "image": "app11.png",
+    "title": "GameForge: Indie Games & Challenges",
+    "companyName": "PlayPeak Studios",
+    "id": 11,
+    "description": "GameForge lets you discover trending indie games and connect with developers worldwide. Compete in daily leaderboards, earn achievements, and participate in community challenges. Perfect for gamers looking for new experiences, game reviews, and social interaction with fellow players globally.",
+    "size": 95,
+    "reviews": 18700,
+    "ratingAvg": 4.6,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1700 },
+      { "name": "4 star", "count": 5400 },
+      { "name": "5 star", "count": 10100 }
+    ]
+  },
+  {
+    "image": "app12.png",
+    "title": "NoteWise: Smart Notes & Collaboration",
+    "companyName": "ScribbleSoft",
+    "id": 12,
+    "description": "NoteWise organizes all your notes, lists, and inspirations in one elegant space. Sync across devices, add images and attachments, and share with your team seamlessly. Advanced search and AI-powered suggestions help you find the right note instantly.",
+    "size": 43,
+    "reviews": 9400,
+    "ratingAvg": 4.5,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "app13.png",
+    "title": "SoundSphere: AI Music Experience",
+    "companyName": "HarmonyX",
+    "id": 13,
+    "description": "SoundSphere combines AI-powered equalizers and immersive audio effects to deliver a personalized music experience. Create playlists, explore genres, and enjoy dynamic soundscapes tailored to your mood and listening habits.",
+    "size": 88,
+    "reviews": 19900,
+    "ratingAvg": 4.8,
+    "downloads": 2700000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 9900 }
+    ]
+  },
+  {
+    "image": "app14.png",
+    "title": "HealthifyMe: Fitness & Nutrition Tracker",
+    "companyName": "VitalTrack",
+    "id": 14,
+    "description": "HealthifyMe keeps you motivated to stay fit through smart meal planning, hydration tracking, workout logs, and personalized health analytics. Connect with nutritionists and trainers, join challenges, and monitor your progress over time.",
+    "size": 58,
+    "reviews": 8700,
+    "ratingAvg": 4.4,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2800 },
+      { "name": "5 star", "count": 5300 }
+    ]
+  },
+  {
+    "image": "app15.png",
+    "title": "VisionAI: Transform Photos to Art",
+    "companyName": "Lensify Inc.",
+    "id": 15,
+    "description": "VisionAI transforms your photos into digital artwork using advanced neural rendering. Instantly generate art in styles from Van Gogh to anime, and share creations across social media. Perfect for artists, hobbyists, and creative professionals.",
+    "size": 110,
+    "reviews": 24500,
+    "ratingAvg": 4.9,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 4900 },
+      { "name": "5 star", "count": 16200 }
+    ]
+  },
+  {
+    "image": "app16.png",
+    "title": "ShopSmart: Deals & Delivery Tracker",
+    "companyName": "BuyEase Global",
+    "id": 16,
+    "description": "ShopSmart helps you find discounts, compare prices, and track deliveries from all your favorite stores. Get personalized deals, notifications for price drops, and seamless order management for smart shopping.",
+    "size": 69,
+    "reviews": 12800,
+    "ratingAvg": 4.3,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1200 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "app17.png",
+    "title": "StudyHero: Smart Learning & Flashcards",
+    "companyName": "BrainBox Learning",
+    "id": 17,
+    "description": "StudyHero motivates students through flashcards, leaderboards, and progress tracking. Compete with friends while improving study habits and mastering new subjects efficiently.",
+    "size": 54,
+    "reviews": 9200,
+    "ratingAvg": 4.6,
+    "downloads": 980000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 4600 }
+    ]
+  },
+  {
+    "image": "app18.png",
+    "title": "TimeTrack: Productivity & Project Timer",
+    "companyName": "ProTask Corp",
+    "id": 18,
+    "description": "TimeTrack helps professionals measure productivity, manage projects, and generate automatic time reports. Track tasks, set alerts, and gain insights to optimize your work efficiency.",
+    "size": 47,
+    "reviews": 8100,
+    "ratingAvg": 4.5,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 3900 }
+    ]
+  },
+  {
+    "image": "app19.png",
+    "title": "MindMapX: Creative Idea Organizer",
+    "companyName": "IdeaForge Labs",
+    "id": 19,
+    "description": "MindMapX lets you visualize ideas, brainstorm projects, and create flowcharts easily with AI suggestions. Organize thoughts, collaborate with teams, and plan projects efficiently.",
+    "size": 66,
+    "reviews": 11400,
+    "ratingAvg": 4.7,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 3600 },
+      { "name": "5 star", "count": 5700 }
+    ]
+  },
+  {
+    "image": "app20.png",
+    "title": "CryptoTrack: Real-Time Crypto Portfolio",
+    "companyName": "BitPulse Ltd.",
+    "id": 20,
+    "description": "CryptoTrack delivers real-time cryptocurrency market analysis, news, and secure portfolio tracking. Monitor investments, receive alerts, and make informed decisions to optimize your trading strategies.",
+    "size": 83,
+    "reviews": 15200,
+    "ratingAvg": 4.6,
+    "downloads": 1900000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1300 },
+      { "name": "4 star", "count": 4400 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "app21.png",
+    "title": "RecipeHub: Global Recipes & Guides",
+    "companyName": "TastyNest",
+    "id": 21,
+    "description": "RecipeHub gives you thousands of delicious recipes, step-by-step guides, and meal planning tools. Save favorites, explore cuisines, and cook smarter with AI-powered ingredient suggestions.",
+    "size": 63,
+    "reviews": 10900,
+    "ratingAvg": 4.7,
+    "downloads": 860000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  },
+  {
+    "image": "app22.png",
+    "title": "Newsly: AI Personalized News Reader",
+    "companyName": "MediaNext",
+    "id": 22,
+    "description": "Newsly curates personalized news feeds using AI. Get breaking news, summaries, and alerts tailored to your interests. Read without ads or clutter and share articles instantly.",
+    "size": 44,
+    "reviews": 8700,
+    "ratingAvg": 4.3,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 2900 },
+      { "name": "5 star", "count": 3700 }
+    ]
+  },
+  {
+    "image": "app23.png",
+    "title": "DocuScan: OCR & Document Manager",
+    "companyName": "FileFlex Ltd.",
+    "id": 23,
+    "description": "DocuScan converts paper documents into searchable PDFs with OCR and AI cleanup. Sync to cloud, annotate, and organize all your files efficiently for personal and professional use.",
+    "size": 50,
+    "reviews": 9400,
+    "ratingAvg": 4.8,
+    "downloads": 950000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2600 },
+      { "name": "5 star", "count": 4700 }
+    ]
+  },
+  {
+    "image": "app24.png",
+    "title": "HomeSync: Smart Home Controller",
+    "companyName": "SmartNest Technologies",
+    "id": 24,
+    "description": "HomeSync connects all your smart devices — lights, thermostats, cameras — into one intuitive dashboard. Control with voice commands, gestures, or app notifications and automate routines for ultimate convenience.",
+    "size": 88,
+    "reviews": 12400,
+    "ratingAvg": 4.6,
+    "downloads": 1550000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "image": "app25.png",
+    "title": "TravelMate: Trip Planner & Travel Guide",
+    "companyName": "ExploreWorld Inc.",
+    "id": 25,
+    "description": "TravelMate is your complete travel companion. Plan trips, book hotels, discover local attractions, and create personalized itineraries. Access offline maps, travel tips, and share experiences with fellow travelers globally.",
+    "size": 92,
+    "reviews": 11800,
+    "ratingAvg": 4.7,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 3300 },
+      { "name": "5 star", "count": 5200 }
+    ]
+  }
+]
+

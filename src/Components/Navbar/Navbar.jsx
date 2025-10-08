@@ -1,9 +1,17 @@
 import React from "react";
-
+import { FaGithub } from "react-icons/fa";
+import Logo from "../../assets/logo.png";
+import { Link, NavLink } from "react-router";
 const Navbar = () => {
+   const links = <>
+    <Link to=''><li className=' text-[17px] font-normal'>Home</li></Link>
+    <Link to='/apps'><li className='mx-8 text-[17px] font-normal'>Apps</li></Link>
+    <Link to='/installation'><li className=' text-[17px] font-normal'>Installation</li></Link>
+    </>
+      
   return (
-    <div>
-      <div className="navbar bg-base-100 shadow-sm">
+    <div className="bg-white">
+      <div className="navbar container mx-auto">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -27,52 +35,21 @@ const Navbar = () => {
               tabIndex={0}
               className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
             >
-              <li>
-                <a>Item 1</a>
-              </li>
-              <li>
-                <a>Parent</a>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <a>Item 3</a>
-              </li>
+             {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">daisyUI</a>
+          <div className="flex  items-center gap-1.5">
+            <img className="w-10 h-10" src={Logo} alt="Logo" />
+          <a className=" text-[16px] font-bold bg-gradient-to-b from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</a>
+          </div>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul className="p-2">
-                  <li>
-                    <a>Submenu 1</a>
-                  </li>
-                  <li>
-                    <a>Submenu 2</a>
-                  </li>
-                </ul>
-              </details>
-            </li>
-            <li>
-              <a>Item 3</a>
-            </li>
+        <div className="navbar-center hidden lg:flex gap-10">
+          <ul className="menu menu-horizontal px-1 ">
+           {links}
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a href="https://github.com/TawhidulIslamRefat" className="btn bg-gradient-to-b from-[#632ee3] to-[#9f62f2] text-white"> <FaGithub /> Contribute</a>
         </div>
       </div>
     </div>
