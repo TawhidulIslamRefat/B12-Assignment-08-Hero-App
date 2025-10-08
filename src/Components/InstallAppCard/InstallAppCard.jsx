@@ -1,8 +1,8 @@
 import React from 'react';
 import { MdOutlineFileDownload } from "react-icons/md";
 import { GoStarFill } from "react-icons/go";
-const InstallAppCard = ({app}) => {
-    const {image,title,ratingAvg,size,downloads} = app;
+const InstallAppCard = ({app,onUninstall}) => {
+    const {image,title,ratingAvg,size,downloads,id} = app;
 
       const FormatNum = (value) =>{
         if(value >= 1000000){
@@ -28,7 +28,7 @@ const InstallAppCard = ({app}) => {
                     </div>
                 </div>
                 <div>
-                    <button className="text-white bg-[#00D390] py-3 px-5 rounded-[4px]">Uninstall</button>
+                    <button onClick={() => onUninstall(id)} className="text-white bg-[#00D390] py-3 px-5 rounded-[4px]">Uninstall</button>
                 </div>
             </div>
         </div>

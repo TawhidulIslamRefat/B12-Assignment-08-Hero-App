@@ -2,11 +2,12 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import Logo from "../../assets/logo.png";
 import { Link, NavLink } from "react-router";
+import '../../index.css'
 const Navbar = () => {
    const links = <>
-    <Link to=''><li className=' text-[17px] font-normal'>Home</li></Link>
-    <Link to='/apps'><li className='mx-8 text-[17px] font-normal'>Apps</li></Link>
-    <Link to='/installation'><li className=' text-[17px] font-normal'>Installation</li></Link>
+    <NavLink to=''><li className=' text-[17px] font-normal'>Home</li></NavLink>
+    <NavLink to='/apps'><li className='mx-8 text-[17px] font-normal'>Apps</li></NavLink>
+    <NavLink to='/installation'><li className=' text-[17px] font-normal'>Installation</li></NavLink>
     </>
       
   return (

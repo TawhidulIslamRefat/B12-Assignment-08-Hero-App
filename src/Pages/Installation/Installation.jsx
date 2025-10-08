@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router";
-import { getStoreApp } from "../../Utility/addToLSR";
+import { getStoreApp, removeStoredDb } from "../../Utility/addToLSR";
 import { IoMdArrowDropdown } from "react-icons/io";
 import InstallAppCard from "../../Components/InstallAppCard/InstallAppCard";
+import { ToastContainer, toast } from 'react-toastify';
 const Installation = () => {
   const [appList, SetAppList] = useState([]);
   const [sort,setSort] = useState();
@@ -15,7 +16,7 @@ const Installation = () => {
       convertedStoredApps.includes(app.id)
     );
     SetAppList(myInstallList);
-  }, []);
+  }, [appsData]);
 
     const handleSort =(type) => {
         setSort(type);
@@ -27,8 +28,15 @@ const Installation = () => {
          SetAppList(sotredBySizeDesc);
        }
     }
+
+    const handleUninstall = (id) =>{
+        removeStoredDb(id);
+        SetAppList(apps => apps.filter(app => app.id !== id));
+        toast.error("UnInstall Complete")
+    }
   return (
     <div className="pt-10 container mx-auto">
+         <ToastContainer />
       <h1 className="text-5xl font-bold text-center">Your Installed Apps</h1>
       <p className="text-xl font-normal text-[#627382] text-center mt-4 mb-11">
         Explore All Trending Apps on the Market developed by us
@@ -58,7 +66,7 @@ const Installation = () => {
       </div>
       <div className="my-10">
         {
-          appList.map((app) => <InstallAppCard key={app.id} app={app}></InstallAppCard>)  
+          appList.map((app) => <InstallAppCard key={app.id} app={app} onUninstall={handleUninstall}></InstallAppCard>)  
         }
       </div>
     </div>
