@@ -1,13 +1,16 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useLoaderData, useParams } from "react-router";
 import download from "../../assets/download.png";
 import star from "../../assets/star.png";
 import like from "../../assets/like.png";
 import { BarChart, Bar, XAxis, YAxis } from "recharts";
+import { addToStoredDB, getStoreApp } from "../../Utility/addToLSR";
+ import { ToastContainer, toast } from 'react-toastify';
 const AppDetails = () => {
   const { id } = useParams();
   const appID = parseInt(id);
   const allAppsData = useLoaderData();
+  const [isInstall,setIsInstall] =useState(false)
   const singleApp = allAppsData.find((app) => app.id === appID);
   const FormatNum = (value) => {
     if (value >= 1000000) {
@@ -29,11 +32,27 @@ const AppDetails = () => {
   } = singleApp;
   useEffect(() =>{
           window.scrollTo(0,0);
+      },[]);
+
+      useEffect (()=>{
+        const installApps = getStoreApp();
+        if(installApps.includes(appID)){
+            setIsInstall(true)
+        }
       },[])
+
+      const handleInstallApp = (id) => {
+         addToStoredDB(id);
+         setIsInstall(true);
+         toast.success('Installed Complete')
+         
+      }
   return (
+    
     <div className="container mx-auto mt-20">
       <div className="flex gap-10 border-b-2 border-gray-300 pb-10">
         <div>
+            <ToastContainer />
           <img className="w-80 h-80" src={image} alt="App Image" />
         </div>
         <div>
@@ -76,8 +95,9 @@ const AppDetails = () => {
             </div>
           </div>
           <div className="mt-4">
-            <button className="text-white bg-[#00D390] py-3 px-5 rounded-[4px]">
-              Install Now ({size} MB){" "}
+            <button onClick={()=> handleInstallApp(appID)}
+            disabled={isInstall} className="text-white bg-[#00D390] py-3 px-5 rounded-[4px]">
+              {isInstall ? "Installed ✅" : `Install Now (${size}MB)`}
             </button>
           </div>
         </div>
