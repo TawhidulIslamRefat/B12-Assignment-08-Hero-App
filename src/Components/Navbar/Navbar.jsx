@@ -18,7 +18,7 @@ const Navbar = () => {
              {links}
             </ul>
             </div>
-      <div className="fixed top-0 left-0 right-0 bg-white">
+      <div className="normal md:fixed top-0 left-0 right-0 bg-white">
         <div className="navbar container mx-auto">
         <div className="navbar-start">
           <a href="/">

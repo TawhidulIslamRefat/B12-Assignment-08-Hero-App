@@ -18,7 +18,7 @@ const MainLayout = () => {
     },[navigation.state]);
   return (
     <>
-      <div className="flex flex-col min-h-screen bg-[#F5F5F5]">
+      <div className="flex flex-col min-h-screen bg-[#F5F5F5] overflow-x-hidden">
         <Navbar></Navbar>
            <div className="flex-1">
             {showLoader ? (
