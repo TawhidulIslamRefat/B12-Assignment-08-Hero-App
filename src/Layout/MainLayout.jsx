@@ -22,7 +22,7 @@ const MainLayout = () => {
         <Navbar></Navbar>
            <div className="flex-1">
             {showLoader ? (
-              <div className="flex justify-center items-center min-h-screen gap-25 ">
+              <div className="flex justify-center items-center min-h-screen gap-15 sm:gap-25 ">
                 <PacmanLoader color="#9f62f2" size={40} />
                 <p className="text-4xl font-semibold ml-10 text-[#632ee3] hidden sm:flex">LOADING...</p>
               </div>

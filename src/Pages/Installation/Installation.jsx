@@ -37,11 +37,11 @@ const Installation = () => {
   return (
     <div className="pt-10 container mx-auto">
          <ToastContainer />
-      <h1 className="text-5xl font-bold text-center">Your Installed Apps</h1>
-      <p className="text-xl font-normal text-[#627382] text-center mt-4 mb-11">
+      <h1 className="text-3xl sm:text-5xl font-bold text-center">Your Installed Apps</h1>
+      <p className="text-[18px] px-2 sm:px-0 sm:text-xl font-normal text-[#627382] text-center mt-4 mb-11">
         Explore All Trending Apps on the Market developed by us
       </p>
-      <div className="flex justify-between items-center">
+      <div className="flex flex-col sm:flex-row justify-center gap-5 sm:gap-0 sm:justify-between items-center sm:items-start">
         <h1 className="text-2xl font-semibold text-[#001931]">{appList.length} App{appList.length!== 1 ? "s" : ""}
               Found </h1>
         <div className="dropdown">

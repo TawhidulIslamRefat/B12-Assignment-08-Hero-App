@@ -13,9 +13,9 @@ const Home = () => {
             <Banner></Banner>
             <StateSection></StateSection>
             <div className='mt-20'>
-               <h1 className='text-5xl font-bold text-center mb-4 '>Trending Apps</h1>
-               <p className='text-xl font-normal text-[#627382] text-center'>Explore All Trending Apps on the Market developed by us</p>
-               <div className='grid grid-cols-4 gap-4 container mx-auto my-10 '>
+               <h1 className='text-3xl sm:text-5xl font-bold text-center mb-4 '>Trending Apps</h1>
+               <p className='text-[16px] sm:text-xl font-normal text-[#627382] text-center'>Explore All Trending Apps on the Market developed by us</p>
+               <div className='grid grid-cols-1 sm:grid-cols-4 gap-4 container mx-auto my-10 '>
                 {  
                 appsData.slice(0,8).map(app =><AppsCard key={app.id} app={app} ></AppsCard>)
                 }

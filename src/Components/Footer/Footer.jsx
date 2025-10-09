@@ -9,7 +9,7 @@ const Footer = () => {
         <div>
             <footer className="  bg-neutral text-neutral-content py-8">
   
-     <div className='container mx-auto grid grid-cols-1 gap-3 sm:gap-0  sm:grid-cols-5 sm:footer-horizontal mb-8'>
+     <div className='container mx-auto grid grid-cols-1 gap-5 sm:gap-0  sm:grid-cols-5 sm:footer-horizontal mb-8 ml-3 sm:ml-55'>
       <nav className='flex items-center gap-2' >
     <img className='w-10 h-10' src={Logo} alt="" />
     <h6 className="footer-title">HERO.IO</h6>
@@ -45,7 +45,7 @@ const Footer = () => {
   </nav>
      </div>
   
-    <div className='border-t-2 border-[#32353b] mx-45'>
+    <div className='border-t-2 border-[#32353b] mx-0 sm:mx-45'>
       <p className='text-center text-[16px] font-normal text-[#c7c6c6] pt-7'>Copyright © 2025 - All right reserved</p>
     </div>
 </footer>

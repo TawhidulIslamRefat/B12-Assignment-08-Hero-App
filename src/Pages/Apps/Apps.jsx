@@ -27,26 +27,26 @@ const Apps = () => {
 
     return (
         <div className='container mx-auto mt-20'>
-            <h1 className='text-5xl font-bold text-center'>Our All Applications</h1>
-            <p className='text-xl font-normal text-[#627382] text-center mt-4 mb-[46px]'>Explore All Apps on the Market developed by us. We code for Millions</p>
-            <div className='flex justify-between'>
+            <h1 className='text-3xl sm:text-5xl font-bold text-center'>Our All Applications</h1>
+            <p className='text-[16px] sm:text-xl font-normal text-[#627382] text-center mt-4 mb-[46px]'>Explore All Apps on the Market developed by us. We code for Millions</p>
+            <div className='flex flex-col sm:flex-row justify-center gap-5 sm:gap-0 sm:justify-between items-center sm:items-start'>
                 <h1 className='text-2xl font-semibold text-[#001931]'>({filterApps.length}) Apps Found</h1>
                    <div className='relative'>
-                    <IoIosSearch  className='absolute text-2xl top-3 left-3 text-gray-600'/>
-                     <input  className='border-2 border-[#979292] text-[18px] font-normal text-gray-600 py-2 px-10 rounded-[4px]' type="search" value={searchApps} onChange={handleSearch} name="" id="search" placeholder='search  Apps'  />
+                    <IoIosSearch  className='absolute text-xl sm:text-2xl top-3 left-1 sm:left-3 text-gray-600'/>
+                     <input  className='border-2 border-[#979292] text-[16px] sm:text-[18px] font-normal text-gray-600 py-2 px-6 sm:px-10 rounded-[4px]' type="search" value={searchApps} onChange={handleSearch} name="" id="search" placeholder='search  Apps'  />
                    </div>
             </div>
                 { showLoading ? (
                   <div className="flex justify-center items-center gap-25 h-[80vh] ">
                 <PacmanLoader color="#9f62f2" size={40} />
-                <p className="text-4xl font-semibold ml-10 text-[#632ee3]">LOADING...</p>
+                <p className="text-4xl font-semibold ml-10 text-[#632ee3] hidden sm:flex">LOADING...</p>
               </div>
                 ):(
-                    <div className='grid grid-cols-4 gap-4 container justify-center mx-auto mt-10 mb-20'>
+                    <div className='grid grid-cols-1 sm:grid-cols-4 gap-4 container justify-center mx-auto mt-10 mb-15 sm:mb-20'>
                     {filterApps.map((app) => <AppsCard key={app.id} app={app} ></AppsCard>)}
                     </div>
                 )   
-                };
+                }
             
         </div>
     );

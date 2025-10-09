@@ -4,21 +4,21 @@ const StateSection = () => {
     return (
         <div className='bg-gradient-to-r from-[#632ee3] to-[#9f62f2] py-15 sm:py-20 text-white'>
                <h1 className='text-4xl leading-12 sm:leading-0 sm:text-5xl font-bold text-white text-center'>Trusted by Millions, Built for You</h1>
-            <div className='container mx-auto flex flex-col sm:flex justify-center items-center mt-10  gap-10 sm:gap-50'>
+            <div className='container mx-auto flex flex-col sm:flex-row justify-center items-center mt-10 sm:mt-20  gap-10 sm:gap-50'>
              <div>
-                <p className='text-[18px] font-normal text-center'>Total Downloads</p>
-                <h1 className='text-6xl font-extrabold text-center my-3'>29.6M</h1>
-                <p className='text-[18px] font-normal text-center'>21% more than last month</p>
+                <p className='text-[16px] sm:text-[18px] font-normal text-center'>Total Downloads</p>
+                <h1 className='text-4xl sm:text-6xl font-extrabold text-center my-3'>29.6M</h1>
+                <p className='text-[16px] sm:text-[18px] font-normal text-center'>21% more than last month</p>
              </div>
              <div>
-                <p className='text-[18px] font-normal text-center'>Total Reviews</p>
-                <h1 className='text-6xl font-extrabold text-center my-3'>906K</h1>
-                <p className='text-[18px] font-normal text-center'>46% more than last month</p>
+                <p className='text-[16px] sm:text-[18px] font-normal text-center'>Total Reviews</p>
+                <h1 className='text-4xl sm:text-6xl font-extrabold text-center my-3'>906K</h1>
+                <p className='text-[16px] sm:text-[18px] font-normal text-center'>46% more than last month</p>
              </div>
              <div>
-                <p className='text-[18px] font-normal text-center'>Active Apps</p>
-                <h1 className='text-6xl font-extrabold text-center my-3'>132+</h1>
-                <p className='text-[18px] font-normal text-center'>31 more will Launch</p>
+                <p className='text-[16px] sm:text-[18px] font-normal text-center'>Active Apps</p>
+                <h1 className='text-4xl sm:text-6xl font-extrabold text-center my-3'>132+</h1>
+                <p className='text-[16px] sm:text-[18px] font-normal text-center'>31 more will Launch</p>
              </div>
 
             </div>
