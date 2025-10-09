@@ -20,12 +20,12 @@ const Installation = () => {
 
     const handleSort =(type) => {
         setSort(type);
-       if (type === "size") {
-        const sortedBySize = [...appList].sort((a,b) => a.size - b.size);
-        SetAppList(sortedBySize);
-       }else if(type === "size-desc"){
-         const sotredBySizeDesc = [...appList].sort((a,b) => b.size - a.size);
-         SetAppList(sotredBySizeDesc);
+       if (type === "downloads") {
+        const sortedByDownloads = [...appList].sort((a,b) => a.downloads - b.downloads);
+        SetAppList(sortedByDownloads);
+       }else if(type === "downloads-desc"){
+         const sotredByDownloadsDesc = [...appList].sort((a,b) => b.downloads - a.downloads);
+         SetAppList(sotredByDownloadsDesc);
        }
     }
 
@@ -47,7 +47,7 @@ const Installation = () => {
         <div className="dropdown">
           <div tabIndex={0} role="button" className="m-1 border-1 border-gray-400 px-4 py-2 rounded-[4px]">
             <div className="flex gap-1 items-center">
-                Sort By Size
+                Sort By Downloads
             <IoMdArrowDropdown />
             </div>
           </div>
@@ -56,10 +56,10 @@ const Installation = () => {
             className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm"
           >
             <li>
-              <a onClick={() => handleSort("size")}>Low To High</a>
+              <a onClick={() => handleSort("downloads")}>Low To High</a>
             </li>
             <li>
-              <a onClick={() => handleSort("size-desc")}>High To Low</a>
+              <a onClick={() => handleSort("downloads-desc")}>High To Low</a>
             </li>
           </ul>
         </div>

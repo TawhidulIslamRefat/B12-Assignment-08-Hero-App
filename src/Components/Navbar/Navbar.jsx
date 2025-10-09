@@ -5,9 +5,9 @@ import { Link, NavLink } from "react-router";
 import '../../index.css'
 const Navbar = () => {
    const links = <>
-    <NavLink to=''><li className=' text-[17px] font-normal'>Home</li></NavLink>
-    <NavLink to='/apps'><li className='mx-8 text-[17px] font-normal'>Apps</li></NavLink>
-    <NavLink to='/installation'><li className=' text-[17px] font-normal'>Installation</li></NavLink>
+    <NavLink to=''><li className=' text-[17px] '>Home</li></NavLink>
+    <NavLink to='/apps'><li className='mx-12 text-[17px] '>Apps</li></NavLink>
+    <NavLink to='/installation'><li className=' text-[17px] '>Installation</li></NavLink>
     </>
       
   return (
@@ -39,10 +39,12 @@ const Navbar = () => {
              {links}
             </ul>
           </div>
+          <a href="/">
           <div className="flex  items-center gap-1.5">
             <img className="w-10 h-10" src={Logo} alt="Logo" />
-          <a className=" text-[16px] font-bold bg-gradient-to-b from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</a>
+          <h1 className=" text-[16px] font-bold bg-gradient-to-b from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">HERO.IO</h1>
           </div>
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex gap-10">
           <ul className="menu menu-horizontal px-1 ">
