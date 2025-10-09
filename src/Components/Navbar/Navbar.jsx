@@ -6,39 +6,21 @@ import '../../index.css'
 const Navbar = () => {
    const links = <>
     <NavLink to=''><li className=' text-[17px] '>Home</li></NavLink>
-    <NavLink to='/apps'><li className='mx-12 text-[17px] '>Apps</li></NavLink>
+    <NavLink to='/apps'><li className='mx-5 sm:mx-12 text-[17px] '>Apps</li></NavLink>
     <NavLink to='/installation'><li className=' text-[17px] '>Installation</li></NavLink>
     </>
       
   return (
+    
     <div className="bg-white">
-      <div className="navbar container mx-auto">
-        <div className="navbar-start">
-          <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                {" "}
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M4 6h16M4 12h8m-8 6h16"
-                />{" "}
-              </svg>
-            </div>
-            <ul
-              tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
-            >
+       <div  className="md:hidden fixed bottom-0 left-0 right-0 shadow-2xl bg-gradient-to-b from-[#632ee3] to-[#9f62f2] text-white">
+              <ul className="flex justify-center items-center">
              {links}
             </ul>
-          </div>
+            </div>
+      <div className="fixed top-0 left-0 right-0 bg-white">
+        <div className="navbar container mx-auto">
+        <div className="navbar-start">
           <a href="/">
           <div className="flex  items-center gap-1.5">
             <img className="w-10 h-10" src={Logo} alt="Logo" />
@@ -46,7 +28,7 @@ const Navbar = () => {
           </div>
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex gap-10">
+        <div className="navbar-center hidden md:flex gap-10">
           <ul className="menu menu-horizontal px-1 ">
            {links}
           </ul>
@@ -54,6 +36,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <a href="https://github.com/TawhidulIslamRefat" className="btn bg-gradient-to-b from-[#632ee3] to-[#9f62f2] text-white"> <FaGithub /> Contribute</a>
         </div>
+      </div>
       </div>
     </div>
   );

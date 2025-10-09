@@ -67,29 +67,29 @@ const AppDetails = () => {
           </div>
           <div className="grid grid-cols-3 gap-15 mt-4 sm:mt-7">
             <div className="ml-2">
-              <img className="w-5 sm:w-10 mx-auto sm:mx-0" src={download} alt="" />
+              <img className="w-5 sm:w-7 md:w-10 mx-auto sm:mx-0" src={download} alt="" />
               <p className="text-[12px] sm:text-[16px] font-normal text-[#001931] my-2 text-center sm:text-left">
                 Downloads
               </p>
-              <h1 className="text-[18px] sm:text-4xl font-extrabold text-[#001931] text-center sm:text-left">
+              <h1 className="text-[18px] sm:text-2xl md:4xl font-extrabold text-[#001931] text-center sm:text-left">
                 {FormatNum(downloads)}
               </h1>
             </div>
             <div>
-              <img className="w-5 sm:w-10 mx-auto sm:mx-0" src={star} alt="" />
+              <img className="w-5 sm:w-7 md:w-10 mx-auto sm:mx-0" src={star} alt="" />
               <p className="text-[12px] sm:text-[16px] font-normal text-[#001931] my-2 text-center sm:text-left">
                 Average Ratings
               </p>
-              <h1 className="text-[18px] sm:text-4xl font-extrabold text-[#001931] text-center sm:text-left">
+              <h1 className="text-[18px] sm:text-2xl md:4xl font-extrabold text-[#001931] text-center sm:text-left">
                 {ratingAvg}
               </h1>
             </div>
             <div className="mr-2">
-              <img className="w-5 sm:w-10 mx-auto sm:mx-0" src={like} alt="" />
+              <img className="w-5 sm:w-7 md:w-10 mx-auto sm:mx-0" src={like} alt="" />
               <p className="text-[12px] sm:text-[16px] font-normal text-[#001931] my-2 text-center sm:text-left">
                 Total Reviews
               </p>
-              <h1 className="text-[18px] sm:text-4xl font-extrabold text-[#001931] text-center sm:text-left">
+              <h1 className="text-[18px] sm:text-2xl md:4xl font-extrabold text-[#001931] text-center sm:text-left">
                 {FormatNum(reviews)}
               </h1>
             </div>

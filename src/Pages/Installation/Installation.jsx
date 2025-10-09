@@ -8,7 +8,9 @@ const Installation = () => {
   const [appList, SetAppList] = useState([]);
   const [sort,setSort] = useState();
   const appsData = useLoaderData();
-
+   useEffect(() =>{
+           window.scrollTo(0,0);
+       },[]);
   useEffect(() => {
     const storedAppData = getStoreApp();
     const convertedStoredApps = storedAppData.map((id) => parseInt(id));

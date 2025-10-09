@@ -8,7 +8,7 @@ const Banner = () => {
     <div className="bg-[#F5F5F5] pt-10 sm:pt-20">
       <div className="container mx-auto flex flex-col justify-center items-center">
         <h1 className="text-4xl sm:text-7xl font-bold text-center leading-12 sm:leading-21">We Build <br /> <span className="bg-gradient-to-r from-[#632ee3] to-[#9f62f2] bg-clip-text text-transparent">Productive</span> Apps</h1>
-        <p className="text-[16px] sm:text-xl font-normal text-[#627382] text-left sm:text-center mt-4 px-2.5 sm:px-25 leading-8">
+        <p className="text-[16px] sm:text-xl font-normal text-[#627382] text-left sm:text-center mt-4 px-2.5 sm:px-3.5 md:px-4 lg:px-25 leading-8">
             Hero.io is your digital stage — a place where creators, artists, and dreamers can share their journey and inspire the world. Whether you design, write, perform, or build, Hero.io helps you present your work with elegance and impact.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 my-10">

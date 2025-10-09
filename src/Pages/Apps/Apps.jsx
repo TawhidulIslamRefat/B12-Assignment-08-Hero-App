@@ -42,7 +42,7 @@ const Apps = () => {
                 <p className="text-4xl font-semibold ml-10 text-[#632ee3] hidden sm:flex">LOADING...</p>
               </div>
                 ):(
-                    <div className='grid grid-cols-1 sm:grid-cols-4 gap-4 container justify-center mx-auto mt-10 mb-15 sm:mb-20'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 container justify-center mx-auto mt-10 mb-15 sm:mb-20'>
                     {filterApps.map((app) => <AppsCard key={app.id} app={app} ></AppsCard>)}
                     </div>
                 )   

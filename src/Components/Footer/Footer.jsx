@@ -9,11 +9,10 @@ const Footer = () => {
         <div>
             <footer className="  bg-neutral text-neutral-content py-8">
   
-     <div className='container mx-auto grid grid-cols-1 gap-5 sm:gap-0  sm:grid-cols-5 sm:footer-horizontal mb-8 ml-3 sm:ml-55'>
+     <div className='container mx-auto grid grid-cols-1 gap-5 sm:gap-0  sm:grid-cols-2  md:grid-col-3 lg:grid-cols-4 xl:grid-cols-4 2xl:grid-cols-5 mb-8 space-y-0 sm:space-y-6  ml-3 sm:ml-20 md:ml-25 lg:ml-30  xl:ml-35 2xl:ml-55'>
       <nav className='flex items-center gap-2' >
     <img className='w-10 h-10' src={Logo} alt="" />
     <h6 className="footer-title">HERO.IO</h6>
-    
   </nav>
   <nav className='flex flex-col gap-1'>
     <h6 className="footer-title">Company</h6>

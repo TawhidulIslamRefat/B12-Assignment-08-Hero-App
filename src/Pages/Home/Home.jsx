@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Banner from '../../Components/Banner/Banner';
 import StateSection from '../../Components/StatesSection/StateSection';
 import { useLoaderData } from 'react-router';
@@ -8,6 +8,9 @@ import { Link } from 'react-router';
 const Home = () => {
     
     const appsData = useLoaderData();
+    useEffect(() =>{
+            window.scrollTo(0,0);
+        },[])
     return (
         <div>
             <Banner></Banner>
@@ -15,7 +18,7 @@ const Home = () => {
             <div className='mt-20'>
                <h1 className='text-3xl sm:text-5xl font-bold text-center mb-4 '>Trending Apps</h1>
                <p className='text-[16px] sm:text-xl font-normal text-[#627382] text-center'>Explore All Trending Apps on the Market developed by us</p>
-               <div className='grid grid-cols-1 sm:grid-cols-4 gap-4 container mx-auto my-10 '>
+               <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 container mx-auto my-10 '>
                 {  
                 appsData.slice(0,8).map(app =><AppsCard key={app.id} app={app} ></AppsCard>)
                 }
