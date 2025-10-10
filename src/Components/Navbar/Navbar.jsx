@@ -5,20 +5,20 @@ import { Link, NavLink } from "react-router";
 import '../../index.css'
 const Navbar = () => {
    const links = <>
-    <NavLink to=''><li className=' text-[17px] '>Home</li></NavLink>
-    <NavLink to='/apps'><li className='mx-5 sm:mx-12 text-[17px] '>Apps</li></NavLink>
-    <NavLink to='/installation'><li className=' text-[17px] '>Installation</li></NavLink>
+    <NavLink to=''><li className=' text-[18px] '>Home</li></NavLink>
+    <NavLink to='/apps'><li className='mx-5 sm:mx-12 text-[18px] '>Apps</li></NavLink>
+    <NavLink to='/installation'><li className=' text-[18px] '>Installation</li></NavLink>
     </>
       
   return (
     
     <div className="bg-white">
-       <div  className="md:hidden fixed bottom-0 left-0 right-0 shadow-2xl bg-gradient-to-b from-[#632ee3] to-[#9f62f2] text-white">
-              <ul className="flex justify-center items-center">
+       <div  className="md:hidden fixed bottom-0 left-0 right-0 shadow-2xl bg-gray-300 backdrop-blur-xl backdrop-saturate-250 text-white z-10">
+              <ul className="flex justify-center items-center py-0.5">
              {links}
             </ul>
             </div>
-      <div className="normal md:fixed top-0 left-0 right-0 bg-white">
+      <div className="normal md:fixed top-0 left-0 right-0 bg-white z-20">
         <div className="navbar container mx-auto">
         <div className="navbar-start">
           <a href="/">

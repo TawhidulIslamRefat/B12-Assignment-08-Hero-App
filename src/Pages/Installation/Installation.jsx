@@ -37,7 +37,7 @@ const Installation = () => {
         toast.error("UnInstall Complete")
     }
   return (
-    <div className="pt-10 container mx-auto">
+    <div className="pt-20 container mx-auto">
          <ToastContainer />
       <h1 className="text-3xl sm:text-5xl font-bold text-center">Your Installed Apps</h1>
       <p className="text-[18px] px-2 sm:px-0 sm:text-xl font-normal text-[#627382] text-center mt-4 mb-11">

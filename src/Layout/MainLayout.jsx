@@ -1,21 +1,19 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
-import { Outlet, useNavigation } from "react-router";
+import { Outlet, useLocation} from "react-router";
 import {PacmanLoader } from "react-spinners";
 const MainLayout = () => {
-  const navigation = useNavigation();
   const [showLoader,setShowLoader] = useState(false);
-  useEffect(()=> {
-    let timeOut = null;
-    if(navigation.state === "loading"){
-      setShowLoader(true);
-    }else{
-      timeOut = setTimeout(() =>{
-         setShowLoader(false)},1000);
-      }
-      return () => clearTimeout(timeOut);
-    },[navigation.state]);
+  const location = useLocation();
+  useEffect(() => {
+    setShowLoader(true);
+    const timeOut = setTimeout(()=>{
+      setShowLoader(false);
+    },1000);
+    return () => clearTimeout(timeOut);
+  },[location.pathname])
+  
   return (
     <>
       <div className="flex flex-col min-h-screen bg-[#F5F5F5] overflow-x-hidden">

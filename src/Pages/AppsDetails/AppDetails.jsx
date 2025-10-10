@@ -97,7 +97,7 @@ const AppDetails = () => {
           <div className="mt-5 sm:mt-4 flex justify-center items-center sm:justify-start sm:items-start ">
             <button onClick={()=> handleInstallApp(appID)}
             disabled={isInstall} className="text-[14px] sm:text-[16px] text-white bg-[#00D390] py-3 px-5 rounded-[4px]">
-              {isInstall ? "Installed ✅" : `Install Now (${size}MB)`}
+              {isInstall ? "Installed " : `Install Now (${size}MB)`}
             </button>
           </div>
         </div>
