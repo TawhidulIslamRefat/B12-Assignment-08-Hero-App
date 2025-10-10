@@ -12,8 +12,8 @@ const Banner = () => {
             Hero.io is your digital stage — a place where creators, artists, and dreamers can share their journey and inspire the world. Whether you design, write, perform, or build, Hero.io helps you present your work with elegance and impact.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 my-10">
-            <a href="https://play.google.com/store/games?hl=en" className="flex gap-2 items-center text-xl font-semibold border-2 border-[#d2d2d2] rounded-[4px] px-6 py-3"> <IoLogoGooglePlaystore /> Google Play</a>
-            <a href="https://www.apple.com/app-store/" className="flex gap-2 items-center text-xl font-semibold border-2 border-[#d2d2d2] rounded-[4px] px-6 py-3"> <FaAppStoreIos /> App Store</a>
+            <a href="https://play.google.com/store/games?hl=en" target="_blank" className="flex gap-2 items-center text-xl font-semibold border-2 border-[#d2d2d2] rounded-[4px] px-6 py-3"> <IoLogoGooglePlaystore /> Google Play</a>
+            <a href="https://www.apple.com/app-store/" target="_blank" className="flex gap-2 items-center text-xl font-semibold border-2 border-[#d2d2d2] rounded-[4px] px-6 py-3"> <FaAppStoreIos /> App Store</a>
         </div>
         <div>
               <img className="w-[90%] sm:w-full mx-auto" src={heroImg} alt="Hero image" />

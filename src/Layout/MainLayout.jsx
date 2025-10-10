@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../Components/Navbar/Navbar";
 import Footer from "../Components/Footer/Footer";
-import { Outlet, useLocation} from "react-router";
+import { Outlet, useLocation } from "react-router";
 import {PacmanLoader } from "react-spinners";
 const MainLayout = () => {
   const [showLoader,setShowLoader] = useState(false);

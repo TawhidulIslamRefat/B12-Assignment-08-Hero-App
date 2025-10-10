@@ -34,7 +34,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="https://github.com/TawhidulIslamRefat" className="btn bg-gradient-to-b from-[#632ee3] to-[#9f62f2] text-white"> <FaGithub /> Contribute</a>
+          <a href="https://github.com/TawhidulIslamRefat" target="_blank" className="btn bg-gradient-to-b from-[#632ee3] to-[#9f62f2] text-white"> <FaGithub /> Contribute</a>
         </div>
       </div>
       </div>

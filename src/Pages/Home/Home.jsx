@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { } from 'react';
 import Banner from '../../Components/Banner/Banner';
 import StateSection from '../../Components/StatesSection/StateSection';
 import { useLoaderData } from 'react-router';
@@ -8,9 +8,6 @@ import { Link } from 'react-router';
 const Home = () => {
     
     const appsData = useLoaderData();
-    useEffect(() =>{
-            window.scrollTo(0,0);
-        },[])
     return (
         <div>
             <Banner></Banner>
