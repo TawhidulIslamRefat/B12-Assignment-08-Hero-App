@@ -11,7 +11,9 @@ With a clean interface and smooth user interaction, HERO.IO allows users to **br
 - ⚡ **Interactive Install System** — Simulates app installation with smooth animations.  
 - ⭐ **Detailed App Pages** — View app ratings, descriptions, and screenshots.    
 - 📱 **Fully Responsive** — Works perfectly on mobile, tablet, and desktop devices.  
+
 ---
+
 ## 🧠 Technology
 
 - **Frontend:** React.js, Tailwind CSS  
@@ -19,15 +21,35 @@ With a clean interface and smooth user interaction, HERO.IO allows users to **br
 - **Charts:** Recharts  
 - **State & Storage:** React Hooks, Local Storage  
 - **UI Enhancements:** React Icons, React Spinners 
+
 ---
+
 ## 🖥️ Live Demo
 
 👉 [Visit HERO.IO](https://hero-apps-1.netlify.app/)
 
 ---
+
 ## 🧑‍💻 Author
 
 **Tawhidul Islam Refat**  
 📧 Email: [tirefat544@gmail.com]  
 🌐 Portfolio: [NOT READY]  
 🐙 GitHub: [https://github.com/TawhidulIslamRefat]
+
+## 💾 Clone & Run Locally
+
+Want to try HERO.IO on your machine? Follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/TawhidulIslamRefat/HERO.IO.git
+
+# Navigate into the project folder
+cd HERO.IO
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm start
